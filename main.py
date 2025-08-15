@@ -19,7 +19,7 @@ symbol = "BTC/USD"   # crypto pair
 qty = 0.001          # fractional qty works for crypto
 
 # -------------------- Load Best Parameters -------------------- #
-best_params_csv = "/mnt/data/bt_best_params_ranked_20250814_113116.csv"  # adjust path if needed
+best_params_csv = "bt_best_params_ranked_20250814_113116.csv"  # adjust path if needed
 best_params_df = pd.read_csv(best_params_csv)
 best_params = best_params_df.iloc[0].to_dict()  # pick top-ranked parameters
 
